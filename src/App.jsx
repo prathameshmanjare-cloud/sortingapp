@@ -1,10 +1,13 @@
 import SortingVisualizer from "./components/SortingVisualizer"
-
+import './App.css';
 function App() {
 
   return (
     <>
-    <h1>Sorting Visualizer</h1>
+        <center>
+        <h1>DSA Sorting Analyzer</h1>
+        <h3>Visualize and analyze sorting algorithms in real-time</h3>
+        </center>
       <SortingVisualizer />
 
     </>
